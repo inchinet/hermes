@@ -1,0 +1,38 @@
+# Hermes Agent Secrets
+.env
+auth.json
+*.gpg
+
+# Profile-specific secrets
+profiles/**/.env
+profiles/**/auth.json
+
+# Logs & Session Data
+logs/
+sessions/
+memories/*.db
+memories/*.json
+!memories/USER.md
+!memories/MEMORY.md
+
+# Application State
+state.db
+*.log
+
+# System / IDE
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+build/
+dist/
+*.egg-info/
